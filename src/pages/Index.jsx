@@ -33,7 +33,7 @@ const Index = () => {
       <Heading mb={6}>Todo App</Heading>
       <Box mb={4}>
         <Input placeholder="Add a new todo" value={inputValue} onChange={handleInputChange} mr={2} />
-        <Button leftIcon={<FaPlus />} onClick={handleAddTodo} colorScheme="purple">
+        <Button leftIcon={<FaPlus />} onClick={handleAddTodo} colorScheme="orange">
           Add Todo
         </Button>
       </Box>
